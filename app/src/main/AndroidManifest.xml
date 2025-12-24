@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TourSplitter"
+        tools:targetApi="31">
+
+        <!-- Login Activity (Launcher) -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Register Activity -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <!-- Dashboard Activity -->
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+
+        <!-- Create Tour Activity -->
+        <activity
+            android:name=".CreateTourActivity"
+            android:exported="false" />
+
+        <!-- Tour Details Activity -->
+        <activity
+            android:name=".TourDetailsActivity"
+            android:exported="false" />
+
+        <!-- Manage Members Activity -->
+        <activity
+            android:name=".ManageMembersActivity"
+            android:exported="false" />
+
+        <!-- Add Expense Activity -->
+        <activity
+            android:name=".AddExpenseActivity"
+            android:exported="false" />
+
+        <!-- Expense Summary Activity -->
+        <activity
+            android:name=".ExpenseSummaryActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

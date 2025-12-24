@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "203250528850",
+    "project_id": "tour-splitter-f82e3",
+    "storage_bucket": "tour-splitter-f82e3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203250528850:android:88bc486ee700c5f4ec658b",
+        "android_client_info": {
+          "package_name": "com.example.toursplitter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw7gu-rilHYKqcccI4E947UF27AMh88KU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
